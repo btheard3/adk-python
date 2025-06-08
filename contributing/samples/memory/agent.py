@@ -16,7 +16,7 @@
 from datetime import datetime
 
 from google.adk import Agent
-from google.adk.agents.callback_context import CallbackContext
+from backend.agent_bases.callback_context import CallbackContext
 from google.adk.tools.load_memory_tool import load_memory_tool
 from google.adk.tools.preload_memory_tool import preload_memory_tool
 

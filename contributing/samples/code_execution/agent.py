@@ -14,7 +14,7 @@
 
 """Data science agent."""
 
-from google.adk.agents.llm_agent import Agent
+from backend.agent_bases.llm_agent import Agent
 from google.adk.code_executors.built_in_code_executor import BuiltInCodeExecutor
 
 

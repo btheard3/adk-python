@@ -21,7 +21,7 @@ from fastapi.openapi.models import OAuth2
 from fastapi.openapi.models import OAuthFlowAuthorizationCode
 from fastapi.openapi.models import OAuthFlows
 from google.adk import Agent
-from google.adk.agents.callback_context import CallbackContext
+from backend.agent_bases.callback_context import CallbackContext
 from google.adk.auth import AuthConfig
 from google.adk.auth import AuthCredential
 from google.adk.auth import AuthCredentialTypes

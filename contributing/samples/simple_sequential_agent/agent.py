@@ -14,8 +14,8 @@
 
 import random
 
-from google.adk.agents.llm_agent import LlmAgent
-from google.adk.agents.sequential_agent import SequentialAgent
+from backend.agent_bases.llm_agent import LlmAgent
+from backend.agent_bases.sequential_agent import SequentialAgent
 from google.genai import types
 
 

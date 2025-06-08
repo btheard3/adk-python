@@ -14,7 +14,7 @@
 
 import os
 
-from google.adk.agents import llm_agent
+from backend.agent_bases import llm_agent
 from google.adk.tools.bigquery import BigQueryCredentialsConfig
 from google.adk.tools.bigquery import BigQueryToolset
 import google.auth

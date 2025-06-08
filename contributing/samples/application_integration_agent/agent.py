@@ -17,7 +17,7 @@
 import os
 
 from dotenv import load_dotenv
-from google.adk.agents.llm_agent import LlmAgent
+from backend.agent_bases.llm_agent import LlmAgent
 from google.adk.tools.application_integration_tool import ApplicationIntegrationToolset
 
 # Load environment variables from .env file
